@@ -12,8 +12,8 @@ if defined?(ChefCompat)
   end
 else
   # The gem is not already activated, so activate the cookbook.
-  require_relative '../files/lib/compat_resource/gemspec'
-  CompatResource::GEMSPEC.activate
+  # require_relative '../files/lib/compat_resource/gemspec'
+  # CompatResource::GEMSPEC.activate
 end
 
 require 'compat_resource'
